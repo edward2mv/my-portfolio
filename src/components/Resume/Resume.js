@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Eudys-Medina.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,19 +42,19 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="Full-Stack Developer [Undefy, Inc.]"
+              date="September 2020 - October 2021"
               content={[
-                "Worked on the development of an E-commerce website",
+                "Worked on the development of E‑commerce and LMS website ( Udenfy.com) and created features to enhance the user experience for smartphones.",
                 "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
                 " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "Used Wordpress RESTFUL API with React to display data using the Custom Components, library Components, and Frontity.",
+                "developed Custom plugins for WordPress in Php and used 3rd party plugins for the agile deployment of site.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Web Developer [Hotel Nicolas de Ovando-2019]"
               content={[
                 "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
               ]}
@@ -63,8 +63,8 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
+              title="Software Engineer [UNAPEC, Santo Domingo] "
+              date="2014 - Present"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
 
@@ -72,7 +72,7 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
+                "",
               ]}
             />
 
