@@ -26,9 +26,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Cryptocurrency Finance Price Tracker App Using Hooks and Axios"
+              description="This Frontend web application using React and the cryptocurrency API called Coingecko, in addition to the Bootstrap framework. This project was born as an idea, in order to practice with a simple project and also understand some APIs from the world of cryptocurrencies."
+              link="https://github.com/edward2mv/react-coingecko-api"
             />
           </Col>
 
