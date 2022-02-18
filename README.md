@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="edme.tech/" target="_blank">edme.tech</a>
+  <a href="www.edme.tech" target="_blank">edme.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
