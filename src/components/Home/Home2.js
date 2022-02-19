@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, C#, PHP,  and especially in JavaScript. </b>
+                <b className="purple"> C++, PHP, Phyton, and in JavaScript. </b>
               </i>
               <br />
               <br />
@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                Decentralized applications and VR Deveploment.
+                Decentralized applications and automate boring stuff with Python.
                 </b>
               </i>
               <br />

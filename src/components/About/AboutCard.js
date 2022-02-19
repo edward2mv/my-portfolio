@@ -8,8 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Edward Medina </span>
-            from <span className="purple"> Baní, Dominican Republic.</span>
+            Hi Everyone, I am <span className="purple">Eudys Medina </span>
+            but everyone calls me <span className="purple">Edward.  </span>
+            I was born and grew up in <span className="purple"> Baní, Dominican Republic.</span>
             <br />I am freelance software developer.  lover of science, the cosmos, technology, and good cuisine! 👨‍💻🌌👨‍🍳.
             <br />
             <br />
