@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.edme.tech/"
+                href="https://edmedev.medium.com/"
                 target="_blank"
                 rel="noreferrer"
               >
