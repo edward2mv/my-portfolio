@@ -26,8 +26,8 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Cryptocurrency Finance Price Tracker App Using Hooks and Axios"
-              description="This Frontend web application using React and the cryptocurrency API called Coingecko, in addition to the Bootstrap framework. This project was born as an idea, in order to practice with a simple project and also understand some APIs from the world of cryptocurrencies."
+              title="CoinGator"
+              description=" Cryptocurrency Finance Price Tracker App Using Hooks and Axios. This Frontend web application using React and the cryptocurrency API called Coingecko, in addition to the Bootstrap framework. This project was born as an idea, in order to practice with a simple project and also understand some APIs from the world of cryptocurrencies."
               link="#"
             />
           </Col>
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="PlatziPunksNFT Marketplace DApp"
-              description="PlatziPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system."
+              title="Avatar Punks DApp"
+              description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system."
               link="#"
             />
           </Col>
@@ -46,8 +46,17 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="edme.tech personal site & portfolio"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="My Personal site & portfolio"
+              description="My personal portfolio edme.tech which features some of my github projects as well as my resume and technical skills.
+
+This project was built using these technologies:
+
+React.js
+Node.js
+Express.js
+CSS3
+VsCode
+Vercel"
               link="#"
             />
           </Col>
@@ -56,8 +65,18 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Udenfy, Inc."
+              description="Udenfy, Inc. is a marketing agency and training platform specializing in e-commerce.
+              This project was built using these technologies:
+
+WordPress
+Elementor
+Gatsby.js
+React.js
+backbone.js
+MySQL
+PHP.
+"
               link="#"
             />
           </Col>
@@ -66,8 +85,16 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Hotel Club Rolling Stone"
+              description="Clubrollingstone.com , is a family-run hotel located in Boca Chica.
+              This project was built using these technologies:
+
+WordPress
+Vue.js
+CSS3
+MySQL
+PHP.
+"
               link="#"
             />
           </Col>
@@ -76,9 +103,16 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Simona beauty salon"
+              description="Salonsimona.com , is a WordPress site.
+              This project was built using these technologies:
+
+WordPress
+Elementor
+CSS3
+MySQL
+PHP.
+"
               link="#"
             />
           </Col>
