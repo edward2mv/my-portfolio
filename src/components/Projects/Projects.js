@@ -35,7 +35,7 @@ Expo,
 React.js,
 VsCode.
 "
-              link="#"
+              link="https://github.com/edward2mv/coingator-react-native"
             />
           </Col>
 
