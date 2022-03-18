@@ -39,8 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">WordPress </b> and
-              <i>
+              with <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
@@ -48,8 +47,10 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> React.js and Next.js </b>
+              </i> 
+              and once in a while in <b className="purple"> WordPress. </b>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">

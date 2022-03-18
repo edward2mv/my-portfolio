@@ -47,13 +47,13 @@ VsCode.
               description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.
               This project was built using these technologies:
 
-React.js,
-Node.js,
-Express.js,
-CSS3,
-VsCode,
-Vercel."
-              link="#"
+Solidity,
+Hardhat,
+Web3.js,
+web3-react,
+IPFS,
+Netlify."
+              link="#https://github.com/edward2mv/AvatarPunks"
             />
           </Col>
 

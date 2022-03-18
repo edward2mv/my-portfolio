@@ -9,8 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Eudys Medina </span>
-            but everyone calls me <span className="purple">Edward.  </span>
-            I was born and grew up in <span className="purple"> Baní, Dominican Republic.</span>
+            but everyone calls me <span className="purple">Edward </span>
+            like my dad which neither is his name, his name is also Eudis! 😵
+            But without the "Y". Yes a little weird, 😅 but that's the history how basically
+            i thought my real name was "eduardito" until i was 6 years old.😂
+            I was born and grew up in <span className="purple"> Baní, a small town of Dominican Republic.</span>
             <br />I am freelance software developer.  lover of science, the cosmos, technology, and good cuisine! 👨‍💻🌌👨‍🍳.
             <br />
             <br />
