@@ -43,7 +43,7 @@ VsCode.
             <ProjectCard
               imgPath={ava}
               isBlog={false}
-              title="Avatar Punks DApp"
+              title="Avatar Punks DApp (in Development...)"
               description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.
               This project was built using these technologies:
 

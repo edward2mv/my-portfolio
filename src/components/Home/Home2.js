@@ -48,7 +48,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js </b>
-              </i> 
+              </i>
               and once in a while in <b className="purple"> WordPress. </b>
 
             </p>
@@ -88,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/edward-medina-villalona-411322161/"
+                  href="https://www.linkedin.com/in/edward2mv/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
