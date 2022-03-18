@@ -27,15 +27,14 @@ function Projects() {
               imgPath={coingator}
               isBlog={false}
               title="CoinGator React Native App"
-              description=" Cryptocurrency Finance Price Tracker App Using Hooks and Axios. This Frontend web application using React and the cryptocurrency API called Coingecko, in addition to the Bootstrap framework. This project was born as an idea, in order to practice with a simple project and also understand some APIs from the world of cryptocurrencies.
+              description="A simple react native app that uses CoinGecko API.
               This project was built using these technologies:
 
 React Native,
-Node.js,
-Express.js,
-CSS3,
-VsCode,
-Vercel."
+Expo,
+React.js,
+VsCode.
+"
               link="#"
             />
           </Col>
