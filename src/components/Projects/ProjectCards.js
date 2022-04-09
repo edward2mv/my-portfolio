@@ -9,9 +9,12 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify", marginBottom:"0px" }}>
           {props.description}
         </Card.Text>
+        <Card.Footer className="tech-stack">
+          {props.techStack}
+        </Card.Footer>
         <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}

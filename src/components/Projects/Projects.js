@@ -1,9 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Badge} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import soon from "../../Assets/Projects/soon.jpg";
 
+
+
+//Importing images
+import soon from "../../Assets/Projects/soon.jpg";
 import coingator from "../../Assets/Projects/coingator.png";
 import movies from "../../Assets/Projects/movies.png";
 //import ava from "../../Assets/Projects/avapunks.jpg";
@@ -11,6 +14,15 @@ import portfolio from "../../Assets/Projects/porfolio.png";
 import udenfy from "../../Assets/Projects/udenfy.PNG";
 import rollingstone from "../../Assets/Projects/rollingstone.png";
 import simona from "../../Assets/Projects/simona.png";
+//importing icons
+import {SiSolidity, SiWeb3Dotjs, SiReact, SiIpfs,
+  SiNetlify, SiExpo, SiReactrouter, SiReacttable,
+  SiExpress, SiCss3, SiWordpress, SiGatsby, SiPhp } from "react-icons/si";
+import {FaElementor, FaHardHat,FaNodeJs,FaReact,FaVuejs } from "react-icons/fa";
+import { AiFillApi } from "react-icons/ai";
+import { MdOutlineHttp } from "react-icons/md";
+import { GrMysql } from "react-icons/gr";
+
 
 function Projects() {
   return (
@@ -33,12 +45,21 @@ function Projects() {
               title="CoinGator React Native App"
               description="A simple react native app that shows the market capitalization of the top 100 cryptocurrencies.
               This project was built using these technologies:
-
-React Native,
-Expo,
-React.js,
-CoinGecko Rest API.
 "
+              techStack={[
+                <Badge >
+                <FaReact />{" "}
+                  React Native
+                </Badge>,
+                <Badge>
+                <SiExpo />{" "}
+                  Expo
+                </Badge>,
+                <Badge>
+                <AiFillApi />{" "}
+                  CoinGecko Rest API.
+                </Badge>
+                ]}
               link="https://github.com/edward2mv/coingator-react-native"
             />
           </Col>
@@ -50,14 +71,25 @@ CoinGecko Rest API.
               isBlog={false}
               title="Movies Reaction"
               description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.
-              This project was built using these technologies:
-
-React,
-React-Router,
-react-query,
-TMDB Rest API.
-"
-              link="#https://github.com/edward2mv/movie-api-react"
+              This project was built using these technologies:"             techStack={[
+                <Badge >
+                <SiReact />{" "}
+                  React-dom
+                </Badge>,
+                <Badge>
+                <SiReactrouter />{" "}
+                  React-router
+                </Badge>,
+                <Badge>
+                <SiReacttable />{" "}
+                  React-query
+                </Badge>,
+                <Badge>
+                  <AiFillApi/>{" "}
+                  TMDB Rest API.
+                </Badge>
+                ]}
+              link="https://github.com/edward2mv/movie-api-react"
             />
           </Col>
 {/*PORTFOLIO */}
@@ -68,15 +100,33 @@ TMDB Rest API.
               isBlog={false}
               title="My Personal site & portfolio"
               description="My personal portfolio edme.tech which features some of my github projects as well as my resume and technical skills.
-
-This project was built using these technologies:
-
-React.js,
-Node.js,
-Express.js,
-CSS3,
-VsCode,
-Vercel."
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiReact />{" "}
+                  React.js
+                </Badge>,
+                <Badge>
+                <FaNodeJs />{" "}
+                  Node.js
+                </Badge>,
+                <Badge>
+                <SiExpress />{" "}
+                  Express.js
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <MdOutlineHttp/>{" "}
+                  Axios,
+                </Badge>,
+                <Badge >
+                  <SiNetlify/>{" "}
+                  Netlify.
+                </Badge>
+                ]}
               link="http://edme.tech/"
             />
           </Col>
@@ -88,15 +138,37 @@ Vercel."
               isBlog={false}
               title="Udenfy, Inc."
               description="Udenfy, Inc. is a marketing agency and training platform specializing in e-commerce.
-              This project was built using these technologies:
-
-WordPress,
-Elementor,
-Gatsby.js,
-React.js,
-MySQL,
-PHP.
-"
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                <SiGatsby />{" "}
+                Gatsby.js
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <SiReact/>{" "}
+                  React.js
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
               link="https://udenfy.com/"
             />
           </Col>
@@ -108,14 +180,33 @@ PHP.
               isBlog={false}
               title="Hotel Club Rolling Stone"
               description="Clubrollingstone.com , is a family-run hotel located in Boca Chica.
-              This project was built using these technologies:
-
-WordPress,
-Vue.js,
-CSS3,
-MySQL,
-PHP.
-"
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                <FaVuejs />{" "}
+                  Vue.js
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
               link="https://clubrollingstone.com/"
             />
           </Col>
@@ -127,14 +218,29 @@ PHP.
               isBlog={false}
               title="Salón Simona"
               description="Salonsimona.com , is a WordPress site.
-              This project was built using these technologies:
-
-WordPress,
-Elementor,
-CSS3,
-MySQL,
-PHP.
-"
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
               link="http://salonsimona.com/"
             />
           </Col>
@@ -146,18 +252,33 @@ PHP.
               isBlog={false}
               title="Avatar Punks Web3 DApp (Under Development...)"
               description={["AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.",
-              <br/>,<br/>," This project was built using these technologies: ",
-              <ul>
-                <li>Solidity</li>
-                <li>Hardhat</li>
-                <li>Web3.js</li>
-                <li>web3-react</li>
-                <li>IPFS</li>
-                <li>Netlify.</li>
-              </ul>,
-                "..."]}
-
-
+              <br/>," This project was built using these technologies: ",]}
+              techStack={[
+                <Badge >
+                <SiSolidity />{" "}
+                  Solidity
+                </Badge>,
+                <Badge>
+                <FaHardHat />{" "}
+                  Hardhat
+                </Badge>,
+                <Badge>
+                <SiWeb3Dotjs />{" "}
+                  Web3.js
+                </Badge>,
+                <Badge>
+                  <SiReact/>{" "}
+                  web3-react
+                </Badge>,
+                <Badge >
+                  <SiIpfs/>{" "}
+                  IPFS,
+                </Badge>,
+                <Badge >
+                  <SiNetlify/>{" "}
+                  Netlify.
+                </Badge>
+                ]}
               link="#https://github.com/edward2mv/AvatarPunks"
             />
           </Col>
