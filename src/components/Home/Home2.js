@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, C#, PHP,  and especially in JavaScript. </b>
+                <b className="purple"> C++, PHP, Phyton, and in JavaScript. </b>
               </i>
               <br />
               <br />
@@ -33,14 +33,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                Decentralized applications and VR Deveploment.
+                Decentralized applications and automate boring stuff with Python.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">WordPress </b> and
-              <i>
+              with <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
@@ -48,8 +47,10 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Next.js </b>
               </i>
+              and once in a while in <b className="purple"> WordPress. </b>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/edward-medina-villalona-411322161/"
+                  href="https://www.linkedin.com/in/edward2mv/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

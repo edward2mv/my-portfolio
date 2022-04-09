@@ -2,13 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import soon from "../../Assets/Projects/soon.jpg";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import coingator from "../../Assets/Projects/coingator.png";
+import movies from "../../Assets/Projects/movies.png";
+//import ava from "../../Assets/Projects/avapunks.jpg";
+import portfolio from "../../Assets/Projects/porfolio.png";
+import udenfy from "../../Assets/Projects/udenfy.PNG";
+import rollingstone from "../../Assets/Projects/rollingstone.png";
+import simona from "../../Assets/Projects/simona.png";
 
 function Projects() {
   return (
@@ -22,64 +24,141 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
-            />
-          </Col>
+{/* COINGATOR APP */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={coingator}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="CoinGator React Native App"
+              description="A simple react native app that shows the market capitalization of the top 100 cryptocurrencies.
+              This project was built using these technologies:
+
+React Native,
+Expo,
+React.js,
+CoinGecko Rest API.
+"
+              link="https://github.com/edward2mv/coingator-react-native"
             />
           </Col>
+{/* MOVIES REACTION APP */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={movies}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Movies Reaction"
+              description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.
+              This project was built using these technologies:
+
+React,
+React-Router,
+react-query,
+TMDB Rest API.
+"
+              link="#https://github.com/edward2mv/movie-api-react"
             />
           </Col>
+{/*PORTFOLIO */}
+
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="My Personal site & portfolio"
+              description="My personal portfolio edme.tech which features some of my github projects as well as my resume and technical skills.
+
+This project was built using these technologies:
+
+React.js,
+Node.js,
+Express.js,
+CSS3,
+VsCode,
+Vercel."
+              link="http://edme.tech/"
+            />
+          </Col>
+{/* UDENFY */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={udenfy}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Udenfy, Inc."
+              description="Udenfy, Inc. is a marketing agency and training platform specializing in e-commerce.
+              This project was built using these technologies:
+
+WordPress,
+Elementor,
+Gatsby.js,
+React.js,
+MySQL,
+PHP.
+"
+              link="https://udenfy.com/"
             />
           </Col>
+{/* HCRS */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={rollingstone}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Hotel Club Rolling Stone"
+              description="Clubrollingstone.com , is a family-run hotel located in Boca Chica.
+              This project was built using these technologies:
+
+WordPress,
+Vue.js,
+CSS3,
+MySQL,
+PHP.
+"
+              link="https://clubrollingstone.com/"
             />
           </Col>
+{/* SIMONA */}
 
-          <Col md={4} className="project-card">
+<Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={simona}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Salón Simona"
+              description="Salonsimona.com , is a WordPress site.
+              This project was built using these technologies:
+
+WordPress,
+Elementor,
+CSS3,
+MySQL,
+PHP.
+"
+              link="http://salonsimona.com/"
+            />
+          </Col>
+{/* AVAPunks */}
+
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={soon}
+              isBlog={false}
+              title="Avatar Punks Web3 DApp (Under Development...)"
+              description={["AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.",
+              <br/>,<br/>," This project was built using these technologies: ",
+              <ul>
+                <li>Solidity</li>
+                <li>Hardhat</li>
+                <li>Web3.js</li>
+                <li>web3-react</li>
+                <li>IPFS</li>
+                <li>Netlify.</li>
+              </ul>,
+                "..."]}
+
+
+              link="#https://github.com/edward2mv/AvatarPunks"
             />
           </Col>
         </Row>

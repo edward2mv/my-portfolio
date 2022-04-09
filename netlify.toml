@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "https://edme.tech/*"
+  to = "https://www.edme.tech/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://edme.tech/*"
+  to = "http://www.edme.tech/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.edme.tech/*"
+  to = "https://www.edme.tech/:splat"
+  status = 301
+  force = true

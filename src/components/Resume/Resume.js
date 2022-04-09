@@ -8,7 +8,7 @@ import pdf from "../../Assets/Eudys-Medina.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+  const uri = "https://myporfolio-backend.vercel.app/ranks/getRanks";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
