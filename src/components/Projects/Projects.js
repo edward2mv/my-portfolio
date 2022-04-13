@@ -17,7 +17,7 @@ import simona from "../../Assets/Projects/simona.png";
 //importing icons
 import {SiSolidity, SiWeb3Dotjs, SiReact, SiIpfs,
   SiNetlify, SiExpo, SiReactrouter, SiReacttable,
-  SiExpress, SiCss3, SiWordpress, SiGatsby, SiPhp } from "react-icons/si";
+  SiExpress, SiCss3, SiWordpress, SiNextdotjs, SiPhp } from "react-icons/si";
 import {FaElementor, FaHardHat,FaNodeJs,FaReact,FaVuejs } from "react-icons/fa";
 import { AiFillApi } from "react-icons/ai";
 import { MdOutlineHttp } from "react-icons/md";
@@ -149,8 +149,8 @@ function Projects() {
                   Elementor
                 </Badge>,
                 <Badge>
-                <SiGatsby />{" "}
-                Gatsby.js
+                <SiNextdotjs />{" "}
+                NextJs
                 </Badge>,
                 <Badge>
                   <SiCss3/>{" "}
