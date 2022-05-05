@@ -43,7 +43,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Full-Stack Developer [Undefy, Inc.]"
-              date="September 2020 - October 2021"
+              date="September 2020 - june 2022"
               content={[
                 "Worked on the development of E‑commerce and LMS website ( Udenfy.com) and created features to enhance the user experience for smartphones.",
                 "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",

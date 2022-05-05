@@ -10,7 +10,7 @@ import {
   DiWordpress,
   DiPython,
 } from "react-icons/di";
-import {SiSolidity, SiExpress, } from "react-icons/si";
+import {SiSolidity, SiExpress,SiNextdotjs,SiGraphql,SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -22,6 +22,9 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -31,7 +34,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
+        <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
@@ -41,6 +44,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiWordpress/>

@@ -17,7 +17,7 @@ function AboutCard() {
             <br />I am freelance software developer lover of science, the cosmos, technology, animals (i currently have 5 cats 😻) and good cuisine! 👨‍💻🌌👨‍🍳.
             <br />
             <br />
-            I'm an proficient Frontend Developer who loves working with <span className="purple">problem-solving</span> and <span className="purple">analytical skills</span>,
+            I'm an proficient Full-Stack Developer who loves working with <span className="purple">problem-solving</span> and <span className="purple">analytical skills</span>,
             clean coding standards and highly interactive web development, disciplinary rules and procedures to set the
             behavior standards expected of me at work, proactive attitude & detail-oriented with high time management
             skills qualities. I like to use top modern frameworks like <span className="purple">NextJS</span> (react framework), <span className="purple">React, Redux-toolkit, Bootstrap</span> and so on.

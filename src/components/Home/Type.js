@@ -7,9 +7,9 @@ function Type() {
       options={{
         strings: [
           "Software Developer",
-          "MERN Stack Developer",
+          "MERN Stack Web Developer",
           "WordPress Expert",
-          "Blockchain Developer in progress...",
+          "Mobile Developer in progress...",
         ],
         autoStart: true,
         loop: true,

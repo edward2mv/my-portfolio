@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                Decentralized applications and automate boring stuff with Python.
+                Mobile app development and automate boring stuff with Python and IoT with Arduino.
                 </b>
               </i>
               <br />
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js </b>
+                <b className="purple"> React.js and Nextjs </b>
               </i>
               and once in a while in <b className="purple"> WordPress. </b>
 

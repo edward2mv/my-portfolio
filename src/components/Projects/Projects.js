@@ -70,8 +70,9 @@ function Projects() {
               imgPath={movies}
               isBlog={false}
               title="Movies Reaction"
-              description="AvatarPunks is an NFT marketplace created from data stored entirely on the blockchain and displayed through an application deployed on a decentralized file system.
-              This project was built using these technologies:"             techStack={[
+              description="This project is a front-end React application that I created just for fun. You can use it to discover the latest movies and get more information on them.
+              This project was built using these technologies:"
+              techStack={[
                 <Badge >
                 <SiReact />{" "}
                   React-dom
