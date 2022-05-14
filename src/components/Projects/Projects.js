@@ -100,7 +100,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="My Personal site & portfolio"
-              description="My personal portfolio edme.tech which features some of my github projects as well as my resume and technical skills.
+              description="My personal portfolio edme.dev which features some of my github projects as well as my resume and technical skills.
               This project was built using these technologies:"
               techStack={[
                 <Badge >
@@ -128,7 +128,7 @@ function Projects() {
                   Netlify.
                 </Badge>
                 ]}
-              link="http://edme.tech/"
+              link="http://edme.dev/"
             />
           </Col>
 {/* UDENFY */}
