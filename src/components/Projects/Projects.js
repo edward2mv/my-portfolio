@@ -14,6 +14,12 @@ import portfolio from "../../Assets/Projects/porfolio.png";
 import udenfy from "../../Assets/Projects/udenfy.PNG";
 import rollingstone from "../../Assets/Projects/rollingstone.png";
 import simona from "../../Assets/Projects/simona.png";
+import cynador from "../../Assets/Projects/cynador.png";
+import iriatech from "../../Assets/Projects/iriatech.png";
+import pktours from "../../Assets/Projects/pktours.png";
+import movivoz from "../../Assets/Projects/movivoz.png";
+import margot from "../../Assets/Projects/margot.png";
+import medepilo from "../../Assets/Projects/medepilo.png";
 //importing icons
 import {SiSolidity, SiWeb3Dotjs, SiReact, SiIpfs,
   SiNetlify, SiExpo, SiReactrouter, SiReacttable,
@@ -36,6 +42,203 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        {/* puntakanatours */}
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pktours}
+              isBlog={false}
+              title="Punta Kana Tours "
+              description="puntakanatours.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://puntakanatours.com/"
+            />
+          </Col>        {/* Medepilo */}
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={medepilo}
+              isBlog={false}
+              title="Medepilo"
+              description="medepilo.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://medepilo.com/"
+            />
+          </Col>
+        {/* iriatech */}
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iriatech}
+              isBlog={false}
+              title="Iriatech"
+              description="iriatech.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://iriatech.com/"
+            />
+          </Col>
+        {/* Margot */}
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={margot}
+              isBlog={false}
+              title="Clínica estética Margot"
+              description="clinicamargot.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://clinicamargot.com/"
+            />
+          </Col>        {/* Cynador */}
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cynador}
+              isBlog={false}
+              title="Cynador Agencia de Marketing Digital"
+              description="Cynador.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://cynador.com/"
+            />
+          </Col>
+        {/* movivoz */}
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movivoz}
+              isBlog={false}
+              title="Movivoz Centralita Virtual Telefónica IP"
+              description="movivoz.com , is a WordPress site.
+              This project was built using these technologies:"
+              techStack={[
+                <Badge >
+                <SiWordpress />{" "}
+                  WordPress
+                </Badge>,
+                <Badge>
+                <FaElementor />{" "}
+                  Elementor
+                </Badge>,
+                <Badge>
+                  <SiCss3/>{" "}
+                  CSS3
+                </Badge>,
+                <Badge >
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
+                </Badge>
+                ]}
+              link="https://movivoz.com/"
+            />
+          </Col>
+
 {/* COINGATOR APP */}
 
           <Col md={4} className="project-card">

@@ -1,3 +1,4 @@
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -446,8 +447,11 @@ html {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
-
+div.project-card-view.card {
+  border-radius: 19px;
+}
 .project-card {
+
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
