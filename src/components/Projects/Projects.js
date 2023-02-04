@@ -47,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={pktours}
               isBlog={false}
-              title="Punta Kana Tours "
-              description="puntakanatours.com , is a WordPress site.
+              title="Punta cana Tours "
+              description="puntacanatours.com , is a WebFlow site.
               This project was built using these technologies:"
               techStack={[
                 <Badge >
@@ -72,7 +72,7 @@ function Projects() {
                   PHP.
                 </Badge>
                 ]}
-              link="https://puntakanatours.com/"
+              link="https://www.excursionesenpuntacana.com/"
             />
           </Col>        {/* Medepilo */}
 <Col md={4} className="project-card">
