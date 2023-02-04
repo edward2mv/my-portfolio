@@ -23,8 +23,9 @@ import medepilo from "../../Assets/Projects/medepilo.png";
 //importing icons
 import {SiSolidity, SiWeb3Dotjs, SiReact, SiIpfs,
   SiNetlify, SiExpo, SiReactrouter, SiReacttable,
-  SiExpress, SiCss3, SiWordpress, SiNextdotjs, SiPhp } from "react-icons/si";
+  SiExpress, SiCss3, SiWordpress,SiWebflow,SiJquery, SiNextdotjs, SiPhp } from "react-icons/si";
 import {FaElementor, FaHardHat,FaNodeJs,FaReact,FaVuejs } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 import { AiFillApi } from "react-icons/ai";
 import { MdOutlineHttp } from "react-icons/md";
 import { GrMysql } from "react-icons/gr";
@@ -52,24 +53,20 @@ function Projects() {
               This project was built using these technologies:"
               techStack={[
                 <Badge >
-                <SiWordpress />{" "}
-                  WordPress
+                <SiWebflow />{" "}
+                  Webflow
                 </Badge>,
                 <Badge>
-                <FaElementor />{" "}
-                  Elementor
+                <SiJquery/>{" "}
+                  jQUERY
                 </Badge>,
                 <Badge>
                   <SiCss3/>{" "}
                   CSS3
                 </Badge>,
                 <Badge >
-                  <GrMysql/>{" "}
-                  MySQL.
-                </Badge>,
-                <Badge >
-                  <SiPhp/>{" "}
-                  PHP.
+                  <TbApi/>{" "}
+                  REST API
                 </Badge>
                 ]}
               link="https://www.excursionesenpuntacana.com/"
