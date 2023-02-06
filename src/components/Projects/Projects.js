@@ -25,6 +25,7 @@ import {SiSolidity, SiWeb3Dotjs, SiReact, SiIpfs,
   SiNetlify, SiExpo, SiReactrouter, SiReacttable,
   SiExpress, SiCss3, SiWordpress,SiWebflow,SiJquery, SiNextdotjs, SiPhp } from "react-icons/si";
 import {FaElementor, FaHardHat,FaNodeJs,FaReact,FaVuejs } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 import { AiFillApi } from "react-icons/ai";
 import { MdOutlineHttp } from "react-icons/md";
 import { GrMysql } from "react-icons/gr";
@@ -64,8 +65,12 @@ function Projects() {
                   CSS3
                 </Badge>,
                 <Badge >
-                  <AiFillApi/>{" "}
-                  REST API
+                  <GrMysql/>{" "}
+                  MySQL.
+                </Badge>,
+                <Badge >
+                  <SiPhp/>{" "}
+                  PHP.
                 </Badge>
                 ]}
               link="https://www.excursionesenpuntacana.com/"
